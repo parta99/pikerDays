@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-weight: normal;
+    background-color: #DDE6ED;
+  }
+  .day {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    background-color: #3b82f6;
+    }
+
+    .current-day {
+        background-color: green;
+        color: white;
+    }
+
+    .selected-day {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        outline: 2px solid white;
+    }
